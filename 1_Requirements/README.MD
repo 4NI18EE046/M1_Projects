@@ -18,7 +18,7 @@ It is used all over the world.
 From conventional energy sources the energy is converted into useful form of electrical energy and it is generated, transmitted and distributed to consumers. And hence along with the units multiplied with rate of charge,the maintenance nothing but fixed and consumer charges are also added.
 
 # Low level requirements:
-[No of units consumed by the consumer]
+No of units consumed by the consumer
 
 # High level requirement :
-Units will be recorded from the difference of prev reading and current reading. |LLR01 | |select Group | |HLR01| Implemented---- | LLR02 | The group will be selected like A or B or C | HLR01 | | Implemented | | LLR03 | If it not belongs to first group it will be directly switch into other group | HLR01| | Implemented | | LLR04 | After the selected The rate of charge belongs to that particular group will be multiplied with no. of units to get energy charges. | HLR02 | | Implemented | | LLR05 | The bill amount will be calculated by adding energy charges to fixed charges, customer charges and electrical duty charges. | LLR06 | And hence the total amount will be noted |HLR01 HLR02 | | Implemented |
+Units will be recorded from the difference of prev reading and current reading. |LLR01 | |select Group | |HLR01| Implemented---- | LLR02 | The group will be selected like 1 or 2 or 3 | HLR01 | | Implemented | | LLR03 | If it not belongs to first group it will be directly switch into other group | HLR01| | Implemented | | LLR04 | After the selected The rate of charge belongs to that particular group will be multiplied with no. of units to get energy charges. | HLR02 | | Implemented | | LLR05 | The bill amount will be calculated by adding energy charges to fixed charges, customer charges and electrical duty charges. | LLR06 | And hence the total amount will be noted |HLR01 HLR02 | | Implemented |
