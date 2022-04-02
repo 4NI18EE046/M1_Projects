@@ -5,7 +5,7 @@ INC= inc/bill.h
 SRC= src
 TEST=test/test_tarrif_calc.c
 target : $(SRC) $(INC) $(TEST)
-	gcc $(TEST) -I$(SRC) Unity/unity.c -IUnity
+	gcc $(TEST) -I$(SRC) unity/unity.c -Iunity
 
 
 
